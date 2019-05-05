@@ -7,24 +7,24 @@ public class task5 {
         System.out.println("Введите число: ");
         int number = scan.nextInt();
         int factor = 1;
-        System.out.println(number*factor);
+        System.out.println(number + " x " + factor + " = " + number*factor);
         factor += 1;
-        System.out.println(number*factor);
+        System.out.println(number + " x " + factor + " = " + number*factor);
         factor += 1;
-        System.out.println(number*factor);
+        System.out.println(number + " x " + factor + " = " + number*factor);
         factor += 1;
-        System.out.println(number*factor);
+        System.out.println(number + " x " + factor + " = " + number*factor);
         factor += 1;
-        System.out.println(number*factor);
+        System.out.println(number + " x " + factor + " = " + number*factor);
         factor += 1;
-        System.out.println(number*factor);
+        System.out.println(number + " x " + factor + " = " + number*factor);
         factor += 1;
-        System.out.println(number*factor);
+        System.out.println(number + " x " + factor + " = " + number*factor);
         factor += 1;
-        System.out.println(number*factor);
+        System.out.println(number + " x " + factor + " = " + number*factor);
         factor += 1;
-        System.out.println(number*factor);
+        System.out.println(number + " x " + factor + " = " + number*factor);
         factor += 1;
-        System.out.println(number*factor);
+        System.out.println(number + " x " + factor + " = " + number*factor);
     }
 }
