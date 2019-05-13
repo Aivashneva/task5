@@ -1,23 +1,50 @@
 import java.util.Scanner;
 
 public class task10 {
-    public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
-        System.out.println("Введите количество строк массива: ");
-        int size1 = scan.nextInt();
-        System.out.println("Введите количество столбцов массива: ");
-        int size2 = scan.nextInt();
-        int mass[][] = new int[size1][size2];
-        for (int i = 0; i < size1; i++) {
-            for (int j = 0; j < size2; j++) {
-                System.out.print("Введите элемент mass[" + i + "][" + j + "]:");
-                mass[i][j] = scan.nextInt();
-            }
+    public static void main(String[] args)
+
+    {
+
+        double[] myList = {1.9, 2.9, 3.4, 3.5};
+
+        // Вывести на экран все элементы массива
+
+        for (int i = 0; i < myList.length; i++)
+
+        {
+
+            System.out.println(myList[i] + " ");
+
         }
-        System.out.println("Итоговый массив: ");
-            for (int j = 0; j < size2; j++) {
-                System.out.println(mass[0][j] * 3);
-            }
+
+        // Сумма элементов массива
+
+        double total = 0;
+
+        for (int i = 0; i < myList.length; i++)
+
+        {
+
+            total += myList[i];
+
         }
+
+        System.out.println("Сумма чисел массива: " + total);
+
+        // Нахождение среди элементов массива наибольшего
+
+        double max = myList[0];
+
+        for (int i = 1; i < myList.length; i++)
+
+        {
+
+            if (myList[i] > max) max = myList[i];
+
+        }
+
+        System.out.println("Наибольший элемент: " + max);
+
     }
+}
 
