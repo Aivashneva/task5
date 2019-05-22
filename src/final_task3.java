@@ -7,7 +7,7 @@ public class final_task3 {
         double course = scan.nextDouble();
         System.out.println("Введите количество рублей: ");
         int rub = scan.nextInt();
-        double usd = (double)(course*rub);
+        double usd = course * rub;
         System.out.println("Значение в долларах: ");
         System.out.printf("%.2f", usd);
     }
